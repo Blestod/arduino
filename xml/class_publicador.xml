@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_publicador" kind="class" language="C++" prot="public">
+    <compoundname>Publicador</compoundname>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MedicionesID</name>
+        <qualifiedname>Publicador::MedicionesID</qualifiedname>
+        <enumvalue id="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38a32fd7e9cb7b0274a336e9dc35614f638" prot="public">
+          <name>CO2</name>
+          <initializer>= 11</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38aba4e4bf52d95cc981259e2a2192e6047" prot="public">
+          <name>TEMPERATURA</name>
+          <initializer>= 12</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38ad30d25e445bf4115dfd39ddcdb665ca4" prot="public">
+          <name>RUIDO</name>
+          <initializer>= 13</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Publicador.h" line="40" column="3" bodyfile="Publicador.h" bodystart="40" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_publicador_1afdd05d23d289af8d520938cbec79b93d" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t Publicador::beaconUUID[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>beaconUUID</name>
+        <qualifiedname>Publicador::beaconUUID</qualifiedname>
+        <initializer>= { 
+	&apos;E&apos;, &apos;P&apos;, &apos;S&apos;, &apos;G&apos;, &apos;-&apos;, &apos;G&apos;, &apos;T&apos;, &apos;I&apos;, 
+	&apos;-&apos;, &apos;P&apos;, &apos;R&apos;, &apos;O&apos;, &apos;Y&apos;, &apos;-&apos;, &apos;3&apos;, &apos;A&apos;
+	}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Publicador.h" line="18" column="11" bodyfile="Publicador.h" bodystart="18" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_publicador_1a86ef036c1b64668ac54dfe87b595aec5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_emisora_b_l_e" kindref="compound">EmisoraBLE</ref></type>
+        <definition>EmisoraBLE Publicador::laEmisora</definition>
+        <argsstring></argsstring>
+        <name>laEmisora</name>
+        <qualifiedname>Publicador::laEmisora</qualifiedname>
+        <initializer>{
+	&quot;GTI-3A&quot;, 
+	  0x004c, 
+	  4 
+	  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Publicador.h" line="26" column="14" bodyfile="Publicador.h" bodystart="26" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_publicador_1a339fb2ba061a53478572ade00866408c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Publicador::RSSI</definition>
+        <argsstring></argsstring>
+        <name>RSSI</name>
+        <qualifiedname>Publicador::RSSI</qualifiedname>
+        <initializer>= -53</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Publicador.h" line="32" column="13" bodyfile="Publicador.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_publicador_1aa6e6635cf76f5be0d84b8e7780156151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Publicador::Publicador</definition>
+        <argsstring>()</argsstring>
+        <name>Publicador</name>
+        <qualifiedname>Publicador::Publicador</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Publicador.h" line="48" column="3" bodyfile="Publicador.h" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="class_publicador_1a10f309e5dfd232d204c5d2952581fe16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Publicador::encenderEmisora</definition>
+        <argsstring>()</argsstring>
+        <name>encenderEmisora</name>
+        <qualifiedname>Publicador::encenderEmisora</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Publicador.h" line="56" column="8" bodyfile="Publicador.h" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_publicador_1a2ed2009b9cec631024263659be882985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Publicador::publicarCO2</definition>
+        <argsstring>(int16_t valorCO2, uint8_t contador, long tiempoEspera)</argsstring>
+        <name>publicarCO2</name>
+        <qualifiedname>Publicador::publicarCO2</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>valorCO2</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>contador</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>tiempoEspera</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Publicador.h" line="63" column="8" bodyfile="Publicador.h" bodystart="63" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_publicador_1a674ec7d8321b9792835cd935c6196dec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Publicador::publicarTemperatura</definition>
+        <argsstring>(int16_t valorTemperatura, uint8_t contador, long tiempoEspera)</argsstring>
+        <name>publicarTemperatura</name>
+        <qualifiedname>Publicador::publicarTemperatura</qualifiedname>
+        <param>
+          <type>int16_t</type>
+          <declname>valorTemperatura</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>contador</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>tiempoEspera</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Publicador.h" line="100" column="8" bodyfile="Publicador.h" bodystart="100" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>EmisoraBLE</label>
+        <link refid="class_emisora_b_l_e"/>
+      </node>
+      <node id="1">
+        <label>Publicador</label>
+        <link refid="class_publicador"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>laEmisora</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="Publicador.h" line="12" column="1" bodyfile="Publicador.h" bodystart="12" bodyend="114"/>
+    <listofallmembers>
+      <member refid="class_publicador_1afdd05d23d289af8d520938cbec79b93d" prot="private" virt="non-virtual"><scope>Publicador</scope><name>beaconUUID</name></member>
+      <member refid="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38a32fd7e9cb7b0274a336e9dc35614f638" prot="public" virt="non-virtual"><scope>Publicador</scope><name>CO2</name></member>
+      <member refid="class_publicador_1a10f309e5dfd232d204c5d2952581fe16" prot="public" virt="non-virtual"><scope>Publicador</scope><name>encenderEmisora</name></member>
+      <member refid="class_publicador_1a86ef036c1b64668ac54dfe87b595aec5" prot="public" virt="non-virtual"><scope>Publicador</scope><name>laEmisora</name></member>
+      <member refid="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38" prot="public" virt="non-virtual"><scope>Publicador</scope><name>MedicionesID</name></member>
+      <member refid="class_publicador_1aa6e6635cf76f5be0d84b8e7780156151" prot="public" virt="non-virtual"><scope>Publicador</scope><name>Publicador</name></member>
+      <member refid="class_publicador_1a2ed2009b9cec631024263659be882985" prot="public" virt="non-virtual"><scope>Publicador</scope><name>publicarCO2</name></member>
+      <member refid="class_publicador_1a674ec7d8321b9792835cd935c6196dec" prot="public" virt="non-virtual"><scope>Publicador</scope><name>publicarTemperatura</name></member>
+      <member refid="class_publicador_1a339fb2ba061a53478572ade00866408c" prot="public" virt="non-virtual"><scope>Publicador</scope><name>RSSI</name></member>
+      <member refid="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38ad30d25e445bf4115dfd39ddcdb665ca4" prot="public" virt="non-virtual"><scope>Publicador</scope><name>RUIDO</name></member>
+      <member refid="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38aba4e4bf52d95cc981259e2a2192e6047" prot="public" virt="non-virtual"><scope>Publicador</scope><name>TEMPERATURA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

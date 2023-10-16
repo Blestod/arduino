@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_servicio_en_emisora_1_1_caracteristica" kind="class" language="C++" prot="public">
+    <compoundname>ServicioEnEmisora::Caracteristica</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_servicio_en_emisora_1_1_caracteristica_1ac408acdaae053ae4c005f1f9162d60c7" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ServicioEnEmisora::Caracteristica::uuidCaracteristica[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>uuidCaracteristica</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::uuidCaracteristica</qualifiedname>
+        <initializer>= { 
+	  
+	  &apos;0&apos;, &apos;1&apos;, &apos;2&apos;, &apos;3&apos;, 
+	  &apos;4&apos;, &apos;5&apos;, &apos;6&apos;, &apos;7&apos;, 
+	  &apos;8&apos;, &apos;9&apos;, &apos;A&apos;, &apos;B&apos;, 
+	  &apos;C&apos;, &apos;D&apos;, &apos;E&apos;, &apos;F&apos;
+	}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="64" column="9" bodyfile="ServicioEnEmisora.h" bodystart="64" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_servicio_en_emisora_1_1_caracteristica_1a385b01fc1535fa1ba0cb62918d70cdcd" prot="private" static="no" mutable="no">
+        <type>BLECharacteristic</type>
+        <definition>BLECharacteristic ServicioEnEmisora::Caracteristica::laCaracteristica</definition>
+        <argsstring></argsstring>
+        <name>laCaracteristica</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::laCaracteristica</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="75" column="19" bodyfile="ServicioEnEmisora.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1a639f47133a8406e84aa237c123fd2e63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ServicioEnEmisora::Caracteristica::Caracteristica</definition>
+        <argsstring>(const char *nombreCaracteristica_)</argsstring>
+        <name>Caracteristica</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::Caracteristica</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>nombreCaracteristica_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="81" column="1" bodyfile="ServicioEnEmisora.h" bodystart="81" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1a646c15ae6b57fc25d144d2e2ed160c0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ServicioEnEmisora::Caracteristica::Caracteristica</definition>
+        <argsstring>(const char *nombreCaracteristica_, uint8_t props, SecureMode_t permisoRead, SecureMode_t permisoWrite, uint8_t tam)</argsstring>
+        <name>Caracteristica</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::Caracteristica</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>nombreCaracteristica_</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>props</declname>
+        </param>
+        <param>
+          <type>SecureMode_t</type>
+          <declname>permisoRead</declname>
+        </param>
+        <param>
+          <type>SecureMode_t</type>
+          <declname>permisoWrite</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>tam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="90" column="1" bodyfile="ServicioEnEmisora.h" bodystart="90" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1a7fe53370615887c50304300457c1114c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::Caracteristica::asignarPropiedadesPermisosYTamanyoDatos</definition>
+        <argsstring>(uint8_t props, SecureMode_t permisoRead, SecureMode_t permisoWrite, uint8_t tam)</argsstring>
+        <name>asignarPropiedadesPermisosYTamanyoDatos</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::asignarPropiedadesPermisosYTamanyoDatos</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>props</declname>
+        </param>
+        <param>
+          <type>SecureMode_t</type>
+          <declname>permisoRead</declname>
+        </param>
+        <param>
+          <type>SecureMode_t</type>
+          <declname>permisoWrite</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>tam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="136" column="6" bodyfile="ServicioEnEmisora.h" bodystart="136" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1ac6642d92b4f2d80ee6c21081972987d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t ServicioEnEmisora::Caracteristica::escribirDatos</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>escribirDatos</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::escribirDatos</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="149" column="10" bodyfile="ServicioEnEmisora.h" bodystart="149" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1ae3369332d51fb6e70a300b54c3a4f95d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t ServicioEnEmisora::Caracteristica::notificarDatos</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>notificarDatos</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::notificarDatos</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="163" column="10" bodyfile="ServicioEnEmisora.h" bodystart="163" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1ac3355c1918c2eddf58d34df1b30dd60d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::Caracteristica::instalarCallbackCaracteristicaEscrita</definition>
+        <argsstring>(CallbackCaracteristicaEscrita cb)</argsstring>
+        <name>instalarCallbackCaracteristicaEscrita</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::instalarCallbackCaracteristicaEscrita</qualifiedname>
+        <param>
+          <type>CallbackCaracteristicaEscrita</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="173" column="6" bodyfile="ServicioEnEmisora.h" bodystart="173" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1ad93e0c5998aeb15c920cd5d6db7a0e3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::Caracteristica::activar</definition>
+        <argsstring>()</argsstring>
+        <name>activar</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::activar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="180" column="6" bodyfile="ServicioEnEmisora.h" bodystart="180" bodyend="184"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1a1d99a13ca16b3306b11e6d7ad50d059e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::Caracteristica::asignarPropiedades</definition>
+        <argsstring>(uint8_t props)</argsstring>
+        <name>asignarPropiedades</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::asignarPropiedades</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>props</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="107" column="6" bodyfile="ServicioEnEmisora.h" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1a0b9429aace3771c7809a9b65ea84482e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::Caracteristica::asignarPermisos</definition>
+        <argsstring>(SecureMode_t permisoRead, SecureMode_t permisoWrite)</argsstring>
+        <name>asignarPermisos</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::asignarPermisos</qualifiedname>
+        <param>
+          <type>SecureMode_t</type>
+          <declname>permisoRead</declname>
+        </param>
+        <param>
+          <type>SecureMode_t</type>
+          <declname>permisoWrite</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="117" column="6" bodyfile="ServicioEnEmisora.h" bodystart="117" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1_1_caracteristica_1a224fe13056debc329ea6e68458821f54" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::Caracteristica::asignarTamanyoDatos</definition>
+        <argsstring>(uint8_t tam)</argsstring>
+        <name>asignarTamanyoDatos</name>
+        <qualifiedname>ServicioEnEmisora::Caracteristica::asignarTamanyoDatos</qualifiedname>
+        <param>
+          <type>uint8_t</type>
+          <declname>tam</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="125" column="6" bodyfile="ServicioEnEmisora.h" bodystart="125" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ServicioEnEmisora.h" line="62" column="3" bodyfile="ServicioEnEmisora.h" bodystart="62" bodyend="186"/>
+    <listofallmembers>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1ad93e0c5998aeb15c920cd5d6db7a0e3b" prot="public" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>activar</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1a0b9429aace3771c7809a9b65ea84482e" prot="private" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>asignarPermisos</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1a1d99a13ca16b3306b11e6d7ad50d059e" prot="private" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>asignarPropiedades</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1a7fe53370615887c50304300457c1114c" prot="public" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>asignarPropiedadesPermisosYTamanyoDatos</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1a224fe13056debc329ea6e68458821f54" prot="private" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>asignarTamanyoDatos</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1a639f47133a8406e84aa237c123fd2e63" prot="public" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>Caracteristica</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1a646c15ae6b57fc25d144d2e2ed160c0c" prot="public" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>Caracteristica</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1ac6642d92b4f2d80ee6c21081972987d7" prot="public" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>escribirDatos</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1ac3355c1918c2eddf58d34df1b30dd60d" prot="public" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>instalarCallbackCaracteristicaEscrita</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1a385b01fc1535fa1ba0cb62918d70cdcd" prot="private" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>laCaracteristica</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1ae3369332d51fb6e70a300b54c3a4f95d" prot="public" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>notificarDatos</name></member>
+      <member refid="class_servicio_en_emisora_1_1_caracteristica_1ac408acdaae053ae4c005f1f9162d60c7" prot="private" virt="non-virtual"><scope>ServicioEnEmisora::Caracteristica</scope><name>uuidCaracteristica</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,398 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_emisora_b_l_e" kind="class" language="C++" prot="public">
+    <compoundname>EmisoraBLE</compoundname>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_emisora_b_l_e_1a922f7f1ab1063eb40c99e4a3676be258" prot="public" static="no">
+        <type>void(uint16_t connHandle)</type>
+        <definition>using EmisoraBLE::CallbackConexionEstablecida =  void ( uint16_t connHandle )</definition>
+        <argsstring></argsstring>
+        <name>CallbackConexionEstablecida</name>
+        <qualifiedname>EmisoraBLE::CallbackConexionEstablecida</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="36" column="3" bodyfile="EmisoraBLE.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="class_emisora_b_l_e_1afd6faaf6a924a50ea027046703300b0b" prot="public" static="no">
+        <type>void(uint16_t connHandle, uint8_t reason)</type>
+        <definition>using EmisoraBLE::CallbackConexionTerminada =  void ( uint16_t connHandle, uint8_t reason)</definition>
+        <argsstring></argsstring>
+        <name>CallbackConexionTerminada</name>
+        <qualifiedname>EmisoraBLE::CallbackConexionTerminada</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="37" column="3" bodyfile="EmisoraBLE.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_emisora_b_l_e_1adc123f5bc5a383104ad2f4fd0315b089" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* EmisoraBLE::nombreEmisora</definition>
+        <argsstring></argsstring>
+        <name>nombreEmisora</name>
+        <qualifiedname>EmisoraBLE::nombreEmisora</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="28" column="15" bodyfile="EmisoraBLE.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_emisora_b_l_e_1a67b97ebd2b35b10066f0857629c6b950" prot="private" static="no" mutable="no">
+        <type>const uint16_t</type>
+        <definition>const uint16_t EmisoraBLE::fabricanteID</definition>
+        <argsstring></argsstring>
+        <name>fabricanteID</name>
+        <qualifiedname>EmisoraBLE::fabricanteID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="29" column="18" bodyfile="EmisoraBLE.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_emisora_b_l_e_1aa62d2364ae61d48e27ebe6da63732e0d" prot="private" static="no" mutable="no">
+        <type>const int8_t</type>
+        <definition>const int8_t EmisoraBLE::txPower</definition>
+        <argsstring></argsstring>
+        <name>txPower</name>
+        <qualifiedname>EmisoraBLE::txPower</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="30" column="16" bodyfile="EmisoraBLE.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_emisora_b_l_e_1ae2e94b95bde4cddf0038deb0368cc5bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>EmisoraBLE::EmisoraBLE</definition>
+        <argsstring>(const char *nombreEmisora_, const uint16_t fabricanteID_, const int8_t txPower_)</argsstring>
+        <name>EmisoraBLE</name>
+        <qualifiedname>EmisoraBLE::EmisoraBLE</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>nombreEmisora_</declname>
+        </param>
+        <param>
+          <type>const uint16_t</type>
+          <declname>fabricanteID_</declname>
+        </param>
+        <param>
+          <type>const int8_t</type>
+          <declname>txPower_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="42" column="3" bodyfile="EmisoraBLE.h" bodystart="42" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1a31f9c768b91b9e353f693f509af3ea73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmisoraBLE::encenderEmisora</definition>
+        <argsstring>()</argsstring>
+        <name>encenderEmisora</name>
+        <qualifiedname>EmisoraBLE::encenderEmisora</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="77" column="8" bodyfile="EmisoraBLE.h" bodystart="77" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1ada243f2f1185a7d66ea33de6bdb06590" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmisoraBLE::encenderEmisora</definition>
+        <argsstring>(CallbackConexionEstablecida cbce, CallbackConexionTerminada cbct)</argsstring>
+        <name>encenderEmisora</name>
+        <qualifiedname>EmisoraBLE::encenderEmisora</qualifiedname>
+        <param>
+          <type>CallbackConexionEstablecida</type>
+          <declname>cbce</declname>
+        </param>
+        <param>
+          <type>CallbackConexionTerminada</type>
+          <declname>cbct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="88" column="8" bodyfile="EmisoraBLE.h" bodystart="88" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1aeede390b7a6502baecb48e9db77120b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmisoraBLE::detenerAnuncio</definition>
+        <argsstring>()</argsstring>
+        <name>detenerAnuncio</name>
+        <qualifiedname>EmisoraBLE::detenerAnuncio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="101" column="8" bodyfile="EmisoraBLE.h" bodystart="101" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1ac32548698cf69ecef9e96941fc2e1b94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EmisoraBLE::estaAnunciando</definition>
+        <argsstring>()</argsstring>
+        <name>estaAnunciando</name>
+        <qualifiedname>EmisoraBLE::estaAnunciando</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="113" column="8" bodyfile="EmisoraBLE.h" bodystart="113" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1aff23b85351177e685353b1ee92a1558f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmisoraBLE::emitirAnuncioIBeacon</definition>
+        <argsstring>(uint8_t *beaconUUID, int16_t major, int16_t minor, uint8_t rssi)</argsstring>
+        <name>emitirAnuncioIBeacon</name>
+        <qualifiedname>EmisoraBLE::emitirAnuncioIBeacon</qualifiedname>
+        <param>
+          <type>uint8_t *</type>
+          <declname>beaconUUID</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>major</declname>
+        </param>
+        <param>
+          <type>int16_t</type>
+          <declname>minor</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>rssi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="120" column="8" bodyfile="EmisoraBLE.h" bodystart="120" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1a8439d1e85ec8d630fcd33b01d8987d41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmisoraBLE::emitirAnuncioIBeaconLibre</definition>
+        <argsstring>(const char *carga, const uint8_t tamanyoCarga)</argsstring>
+        <name>emitirAnuncioIBeaconLibre</name>
+        <qualifiedname>EmisoraBLE::emitirAnuncioIBeaconLibre</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>carga</declname>
+        </param>
+        <param>
+          <type>const uint8_t</type>
+          <declname>tamanyoCarga</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="211" column="8" bodyfile="EmisoraBLE.h" bodystart="211" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1a0f027a1c447357c5fe79200b36451731" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EmisoraBLE::anyadirServicio</definition>
+        <argsstring>(ServicioEnEmisora &amp;servicio)</argsstring>
+        <name>anyadirServicio</name>
+        <qualifiedname>EmisoraBLE::anyadirServicio</qualifiedname>
+        <param>
+          <type><ref refid="class_servicio_en_emisora" kindref="compound">ServicioEnEmisora</ref> &amp;</type>
+          <declname>servicio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="274" column="8" bodyfile="EmisoraBLE.h" bodystart="274" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1a074a16066fc8ae37567a342e3df63bf5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool EmisoraBLE::anyadirServicioConSusCaracteristicas</definition>
+        <argsstring>(ServicioEnEmisora &amp;servicio)</argsstring>
+        <name>anyadirServicioConSusCaracteristicas</name>
+        <qualifiedname>EmisoraBLE::anyadirServicioConSusCaracteristicas</qualifiedname>
+        <param>
+          <type><ref refid="class_servicio_en_emisora" kindref="compound">ServicioEnEmisora</ref> &amp;</type>
+          <declname>servicio</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="294" column="8" bodyfile="EmisoraBLE.h" bodystart="294" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1aa589659b63ae877910eab1b39a93a339" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool EmisoraBLE::anyadirServicioConSusCaracteristicas</definition>
+        <argsstring>(ServicioEnEmisora &amp;servicio, ServicioEnEmisora::Caracteristica &amp;caracteristica, T &amp;... restoCaracteristicas)</argsstring>
+        <name>anyadirServicioConSusCaracteristicas</name>
+        <qualifiedname>EmisoraBLE::anyadirServicioConSusCaracteristicas</qualifiedname>
+        <param>
+          <type><ref refid="class_servicio_en_emisora" kindref="compound">ServicioEnEmisora</ref> &amp;</type>
+          <declname>servicio</declname>
+        </param>
+        <param>
+          <type><ref refid="class_servicio_en_emisora_1_1_caracteristica" kindref="compound">ServicioEnEmisora::Caracteristica</ref> &amp;</type>
+          <declname>caracteristica</declname>
+        </param>
+        <param>
+          <type>T &amp;...</type>
+          <declname>restoCaracteristicas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="300" column="8" bodyfile="EmisoraBLE.h" bodystart="300" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1a0a0673823174ce9ffb96fb1c0dfb11ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename ...</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool EmisoraBLE::anyadirServicioConSusCaracteristicasYActivar</definition>
+        <argsstring>(ServicioEnEmisora &amp;servicio, T &amp;... restoCaracteristicas)</argsstring>
+        <name>anyadirServicioConSusCaracteristicasYActivar</name>
+        <qualifiedname>EmisoraBLE::anyadirServicioConSusCaracteristicasYActivar</qualifiedname>
+        <param>
+          <type><ref refid="class_servicio_en_emisora" kindref="compound">ServicioEnEmisora</ref> &amp;</type>
+          <declname>servicio</declname>
+        </param>
+        <param>
+          <type>T &amp;...</type>
+          <declname>restoCaracteristicas</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="314" column="8" bodyfile="EmisoraBLE.h" bodystart="314" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1ae15e223776af83a8cac07564c168d0b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void EmisoraBLE::instalarCallbackConexionEstablecida</definition>
+        <argsstring>(CallbackConexionEstablecida cb)</argsstring>
+        <name>instalarCallbackConexionEstablecida</name>
+        <qualifiedname>EmisoraBLE::instalarCallbackConexionEstablecida</qualifiedname>
+        <param>
+          <type>CallbackConexionEstablecida</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="329" column="8" bodyfile="EmisoraBLE.h" bodystart="329" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1a78c951f0a3a3c25e717a8c544e732e78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>EmisoraBLE::instalarCallbackConexionTerminada</definition>
+        <argsstring>() -&lt; void instalarCallbackConexionTerminada(CallbackConexionTerminada cb)</argsstring>
+        <name>instalarCallbackConexionTerminada</name>
+        <qualifiedname>EmisoraBLE::instalarCallbackConexionTerminada</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="334" column="3" bodyfile="EmisoraBLE.h" bodystart="334" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_emisora_b_l_e_1aa863c5f29e1f0d4dd1ae023b30350960" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>BLEConnection *</type>
+        <definition>BLEConnection * EmisoraBLE::getConexion</definition>
+        <argsstring>(uint16_t connHandle)</argsstring>
+        <name>getConexion</name>
+        <qualifiedname>EmisoraBLE::getConexion</qualifiedname>
+        <param>
+          <type>uint16_t</type>
+          <declname>connHandle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="EmisoraBLE.h" line="342" column="18" bodyfile="EmisoraBLE.h" bodystart="342" bodyend="344"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="EmisoraBLE.h" line="25" column="1" bodyfile="EmisoraBLE.h" bodystart="25" bodyend="346"/>
+    <listofallmembers>
+      <member refid="class_emisora_b_l_e_1a0f027a1c447357c5fe79200b36451731" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>anyadirServicio</name></member>
+      <member refid="class_emisora_b_l_e_1a074a16066fc8ae37567a342e3df63bf5" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>anyadirServicioConSusCaracteristicas</name></member>
+      <member refid="class_emisora_b_l_e_1aa589659b63ae877910eab1b39a93a339" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>anyadirServicioConSusCaracteristicas</name></member>
+      <member refid="class_emisora_b_l_e_1a0a0673823174ce9ffb96fb1c0dfb11ab" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>anyadirServicioConSusCaracteristicasYActivar</name></member>
+      <member refid="class_emisora_b_l_e_1a922f7f1ab1063eb40c99e4a3676be258" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>CallbackConexionEstablecida</name></member>
+      <member refid="class_emisora_b_l_e_1afd6faaf6a924a50ea027046703300b0b" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>CallbackConexionTerminada</name></member>
+      <member refid="class_emisora_b_l_e_1aeede390b7a6502baecb48e9db77120b4" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>detenerAnuncio</name></member>
+      <member refid="class_emisora_b_l_e_1ae2e94b95bde4cddf0038deb0368cc5bf" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>EmisoraBLE</name></member>
+      <member refid="class_emisora_b_l_e_1aff23b85351177e685353b1ee92a1558f" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>emitirAnuncioIBeacon</name></member>
+      <member refid="class_emisora_b_l_e_1a8439d1e85ec8d630fcd33b01d8987d41" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>emitirAnuncioIBeaconLibre</name></member>
+      <member refid="class_emisora_b_l_e_1a31f9c768b91b9e353f693f509af3ea73" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>encenderEmisora</name></member>
+      <member refid="class_emisora_b_l_e_1ada243f2f1185a7d66ea33de6bdb06590" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>encenderEmisora</name></member>
+      <member refid="class_emisora_b_l_e_1ac32548698cf69ecef9e96941fc2e1b94" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>estaAnunciando</name></member>
+      <member refid="class_emisora_b_l_e_1a67b97ebd2b35b10066f0857629c6b950" prot="private" virt="non-virtual"><scope>EmisoraBLE</scope><name>fabricanteID</name></member>
+      <member refid="class_emisora_b_l_e_1aa863c5f29e1f0d4dd1ae023b30350960" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>getConexion</name></member>
+      <member refid="class_emisora_b_l_e_1ae15e223776af83a8cac07564c168d0b9" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>instalarCallbackConexionEstablecida</name></member>
+      <member refid="class_emisora_b_l_e_1a78c951f0a3a3c25e717a8c544e732e78" prot="public" virt="non-virtual"><scope>EmisoraBLE</scope><name>instalarCallbackConexionTerminada</name></member>
+      <member refid="class_emisora_b_l_e_1adc123f5bc5a383104ad2f4fd0315b089" prot="private" virt="non-virtual"><scope>EmisoraBLE</scope><name>nombreEmisora</name></member>
+      <member refid="class_emisora_b_l_e_1aa62d2364ae61d48e27ebe6da63732e0d" prot="private" virt="non-virtual"><scope>EmisoraBLE</scope><name>txPower</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_servicio_en_emisora" kind="class" language="C++" prot="public">
+    <compoundname>ServicioEnEmisora</compoundname>
+    <innerclass refid="class_servicio_en_emisora_1_1_caracteristica" prot="public">ServicioEnEmisora::Caracteristica</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="class_servicio_en_emisora_1afb9fef1029d1afd6368128a400efdc50" prot="public" static="no">
+        <type>void(uint16_t conn_handle, BLECharacteristic *chr, uint8_t *data, uint16_t len)</type>
+        <definition>using ServicioEnEmisora::CallbackCaracteristicaEscrita =  void ( uint16_t conn_handle, BLECharacteristic * chr, uint8_t * data, uint16_t len)</definition>
+        <argsstring></argsstring>
+        <name>CallbackCaracteristicaEscrita</name>
+        <qualifiedname>ServicioEnEmisora::CallbackCaracteristicaEscrita</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="57" column="3" bodyfile="ServicioEnEmisora.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_servicio_en_emisora_1a6c8dad351b6453c0a08a1c5e4a78c7dd" prot="private" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t ServicioEnEmisora::uuidServicio[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>uuidServicio</name>
+        <qualifiedname>ServicioEnEmisora::uuidServicio</qualifiedname>
+        <initializer>= { 
+	
+	&apos;0&apos;, &apos;1&apos;, &apos;2&apos;, &apos;3&apos;, 
+	&apos;4&apos;, &apos;5&apos;, &apos;6&apos;, &apos;7&apos;, 
+	&apos;8&apos;, &apos;9&apos;, &apos;A&apos;, &apos;B&apos;, 
+	&apos;C&apos;, &apos;D&apos;, &apos;E&apos;, &apos;F&apos;
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="192" column="11" bodyfile="ServicioEnEmisora.h" bodystart="192" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_servicio_en_emisora_1a98d4770be02c0fff4cc9c67660fd3a62" prot="private" static="no" mutable="no">
+        <type>BLEService</type>
+        <definition>BLEService ServicioEnEmisora::elServicio</definition>
+        <argsstring></argsstring>
+        <name>elServicio</name>
+        <qualifiedname>ServicioEnEmisora::elServicio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="203" column="14" bodyfile="ServicioEnEmisora.h" bodystart="203" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_servicio_en_emisora_1ab4d755931fcd34d29ead49663cf523f4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="class_servicio_en_emisora_1_1_caracteristica" kindref="compound">Caracteristica</ref> * &gt;</type>
+        <definition>std::vector&lt; Caracteristica * &gt; ServicioEnEmisora::lasCaracteristicas</definition>
+        <argsstring></argsstring>
+        <name>lasCaracteristicas</name>
+        <qualifiedname>ServicioEnEmisora::lasCaracteristicas</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="208" column="15" bodyfile="ServicioEnEmisora.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_servicio_en_emisora_1a17d9dcafb552b3e76bc7ff2e6fb238f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ServicioEnEmisora::ServicioEnEmisora</definition>
+        <argsstring>(const char *nombreServicio_)</argsstring>
+        <name>ServicioEnEmisora</name>
+        <qualifiedname>ServicioEnEmisora::ServicioEnEmisora</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>nombreServicio_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="214" column="3" bodyfile="ServicioEnEmisora.h" bodystart="214" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1a59267e82dca13b83913e578efacce794" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::escribeUUID</definition>
+        <argsstring>()</argsstring>
+        <name>escribeUUID</name>
+        <qualifiedname>ServicioEnEmisora::escribeUUID</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="224" column="8" bodyfile="ServicioEnEmisora.h" bodystart="224" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1af25a77d5c2b3edfe5c99fc9fa00729bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::anyadirCaracteristica</definition>
+        <argsstring>(Caracteristica &amp;car)</argsstring>
+        <name>anyadirCaracteristica</name>
+        <qualifiedname>ServicioEnEmisora::anyadirCaracteristica</qualifiedname>
+        <param>
+          <type><ref refid="class_servicio_en_emisora_1_1_caracteristica" kindref="compound">Caracteristica</ref> &amp;</type>
+          <declname>car</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="235" column="8" bodyfile="ServicioEnEmisora.h" bodystart="235" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1a387f170420610e1ba1fe71b471c1ca23" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ServicioEnEmisora::activarServicio</definition>
+        <argsstring>()</argsstring>
+        <name>activarServicio</name>
+        <qualifiedname>ServicioEnEmisora::activarServicio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="242" column="8" bodyfile="ServicioEnEmisora.h" bodystart="242" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="class_servicio_en_emisora_1a0d04b53b2379140293924ef1ecbfeebe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ServicioEnEmisora::operator BLEService &amp;</definition>
+        <argsstring>()</argsstring>
+        <name>operator BLEService &amp;</name>
+        <qualifiedname>ServicioEnEmisora::operator BLEService &amp;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="ServicioEnEmisora.h" line="258" column="3" bodyfile="ServicioEnEmisora.h" bodystart="258" bodyend="261"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="ServicioEnEmisora.h" line="47" column="1" bodyfile="ServicioEnEmisora.h" bodystart="47" bodyend="263"/>
+    <listofallmembers>
+      <member refid="class_servicio_en_emisora_1a387f170420610e1ba1fe71b471c1ca23" prot="public" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>activarServicio</name></member>
+      <member refid="class_servicio_en_emisora_1af25a77d5c2b3edfe5c99fc9fa00729bf" prot="public" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>anyadirCaracteristica</name></member>
+      <member refid="class_servicio_en_emisora_1afb9fef1029d1afd6368128a400efdc50" prot="public" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>CallbackCaracteristicaEscrita</name></member>
+      <member refid="class_servicio_en_emisora_1a98d4770be02c0fff4cc9c67660fd3a62" prot="private" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>elServicio</name></member>
+      <member refid="class_servicio_en_emisora_1a59267e82dca13b83913e578efacce794" prot="public" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>escribeUUID</name></member>
+      <member refid="class_servicio_en_emisora_1ab4d755931fcd34d29ead49663cf523f4" prot="private" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>lasCaracteristicas</name></member>
+      <member refid="class_servicio_en_emisora_1a0d04b53b2379140293924ef1ecbfeebe" prot="public" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>operator BLEService &amp;</name></member>
+      <member refid="class_servicio_en_emisora_1a17d9dcafb552b3e76bc7ff2e6fb238f2" prot="public" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>ServicioEnEmisora</name></member>
+      <member refid="class_servicio_en_emisora_1a6c8dad351b6453c0a08a1c5e4a78c7dd" prot="private" virt="non-virtual"><scope>ServicioEnEmisora</scope><name>uuidServicio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

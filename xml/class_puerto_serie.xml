@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_puerto_serie" kind="class" language="C++" prot="public">
+    <compoundname>PuertoSerie</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_puerto_serie_1a8f0bfae3f90577642131689eab4489b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PuertoSerie::PuertoSerie</definition>
+        <argsstring>(long baudios)</argsstring>
+        <name>PuertoSerie</name>
+        <qualifiedname>PuertoSerie::PuertoSerie</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>baudios</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PuertoSerie.h" line="20" column="3" bodyfile="PuertoSerie.h" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_puerto_serie_1acdb696d30440a38dac61f5f73625935a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void PuertoSerie::esperarDisponible</definition>
+        <argsstring>()</argsstring>
+        <name>esperarDisponible</name>
+        <qualifiedname>PuertoSerie::esperarDisponible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PuertoSerie.h" line="28" column="8" bodyfile="PuertoSerie.h" bodystart="28" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_puerto_serie_1ab1b6cecc098aa30e5704dc294deec1f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void PuertoSerie::escribir</definition>
+        <argsstring>(T mensaje)</argsstring>
+        <name>escribir</name>
+        <qualifiedname>PuertoSerie::escribir</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>mensaje</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PuertoSerie.h" line="40" column="8" bodyfile="PuertoSerie.h" bodystart="40" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PuertoSerie.h" line="14" column="1" bodyfile="PuertoSerie.h" bodystart="14" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_puerto_serie_1ab1b6cecc098aa30e5704dc294deec1f4" prot="public" virt="non-virtual"><scope>PuertoSerie</scope><name>escribir</name></member>
+      <member refid="class_puerto_serie_1acdb696d30440a38dac61f5f73625935a" prot="public" virt="non-virtual"><scope>PuertoSerie</scope><name>esperarDisponible</name></member>
+      <member refid="class_puerto_serie_1a8f0bfae3f90577642131689eab4489b1" prot="public" virt="non-virtual"><scope>PuertoSerie</scope><name>PuertoSerie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

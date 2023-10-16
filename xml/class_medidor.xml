@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_medidor" kind="class" language="C++" prot="public">
+    <compoundname>Medidor</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_medidor_1af8dd93b883c64f28bd898c4baaa73dc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Medidor::Medidor</definition>
+        <argsstring>()</argsstring>
+        <name>Medidor</name>
+        <qualifiedname>Medidor::Medidor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Medidor.h" line="22" column="3" bodyfile="Medidor.h" bodystart="22" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_medidor_1a1d26e993a9198fac83d6edad4cc30bcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Medidor::iniciarMedidor</definition>
+        <argsstring>()</argsstring>
+        <name>iniciarMedidor</name>
+        <qualifiedname>Medidor::iniciarMedidor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Medidor.h" line="28" column="8" bodyfile="Medidor.h" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_medidor_1a203ae9be3a2bf0965bd9316fcd203e19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Medidor::medirCO2</definition>
+        <argsstring>()</argsstring>
+        <name>medirCO2</name>
+        <qualifiedname>Medidor::medirCO2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Medidor.h" line="35" column="7" bodyfile="Medidor.h" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_medidor_1a742eaebe02e1d1d67df55f7a73878421" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Medidor::medirTemperatura</definition>
+        <argsstring>()</argsstring>
+        <name>medirTemperatura</name>
+        <qualifiedname>Medidor::medirTemperatura</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Medidor.h" line="42" column="7" bodyfile="Medidor.h" bodystart="42" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Medidor.h" line="11" column="1" bodyfile="Medidor.h" bodystart="11" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_medidor_1a1d26e993a9198fac83d6edad4cc30bcf" prot="public" virt="non-virtual"><scope>Medidor</scope><name>iniciarMedidor</name></member>
+      <member refid="class_medidor_1af8dd93b883c64f28bd898c4baaa73dc9" prot="public" virt="non-virtual"><scope>Medidor</scope><name>Medidor</name></member>
+      <member refid="class_medidor_1a203ae9be3a2bf0965bd9316fcd203e19" prot="public" virt="non-virtual"><scope>Medidor</scope><name>medirCO2</name></member>
+      <member refid="class_medidor_1a742eaebe02e1d1d67df55f7a73878421" prot="public" virt="non-virtual"><scope>Medidor</scope><name>medirTemperatura</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

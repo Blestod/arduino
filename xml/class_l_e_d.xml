@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="class_l_e_d" kind="class" language="C++" prot="public">
+    <compoundname>LED</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_l_e_d_1aa17a4e75c1a3aeb1835cccb36667138b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LED::numeroLED</definition>
+        <argsstring></argsstring>
+        <name>numeroLED</name>
+        <qualifiedname>LED::numeroLED</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LED.h" line="21" column="7" bodyfile="LED.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_l_e_d_1a24c773334fcf58613f20246a0f22640e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool LED::encendido</definition>
+        <argsstring></argsstring>
+        <name>encendido</name>
+        <qualifiedname>LED::encendido</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LED.h" line="22" column="8" bodyfile="LED.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_l_e_d_1a027bcd6d546b47fd3ef22685ed1f73e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>LED::LED</definition>
+        <argsstring>(int numero)</argsstring>
+        <name>LED</name>
+        <qualifiedname>LED::LED</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>numero</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LED.h" line="28" column="3" bodyfile="LED.h" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_e_d_1a58660bafc0f4d6016392feabac555812" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LED::encender</definition>
+        <argsstring>()</argsstring>
+        <name>encender</name>
+        <qualifiedname>LED::encender</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LED.h" line="37" column="8" bodyfile="LED.h" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_e_d_1a7f961959fa7405fec54de6121415db80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LED::apagar</definition>
+        <argsstring>()</argsstring>
+        <name>apagar</name>
+        <qualifiedname>LED::apagar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LED.h" line="45" column="8" bodyfile="LED.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_e_d_1a9b1361dbee5de756d142b1a2c3e685da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LED::alternar</definition>
+        <argsstring>()</argsstring>
+        <name>alternar</name>
+        <qualifiedname>LED::alternar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LED.h" line="53" column="8" bodyfile="LED.h" bodystart="53" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_l_e_d_1a7431e9efb39a2890f75b4e235b8f617e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void LED::brillar</definition>
+        <argsstring>(long tiempo)</argsstring>
+        <name>brillar</name>
+        <qualifiedname>LED::brillar</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>tiempo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="LED.h" line="64" column="8" bodyfile="LED.h" bodystart="64" bodyend="68"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="LED.h" line="19" column="1" bodyfile="LED.h" bodystart="19" bodyend="69"/>
+    <listofallmembers>
+      <member refid="class_l_e_d_1a9b1361dbee5de756d142b1a2c3e685da" prot="public" virt="non-virtual"><scope>LED</scope><name>alternar</name></member>
+      <member refid="class_l_e_d_1a7f961959fa7405fec54de6121415db80" prot="public" virt="non-virtual"><scope>LED</scope><name>apagar</name></member>
+      <member refid="class_l_e_d_1a7431e9efb39a2890f75b4e235b8f617e" prot="public" virt="non-virtual"><scope>LED</scope><name>brillar</name></member>
+      <member refid="class_l_e_d_1a58660bafc0f4d6016392feabac555812" prot="public" virt="non-virtual"><scope>LED</scope><name>encender</name></member>
+      <member refid="class_l_e_d_1a24c773334fcf58613f20246a0f22640e" prot="private" virt="non-virtual"><scope>LED</scope><name>encendido</name></member>
+      <member refid="class_l_e_d_1a027bcd6d546b47fd3ef22685ed1f73e2" prot="public" virt="non-virtual"><scope>LED</scope><name>LED</name></member>
+      <member refid="class_l_e_d_1aa17a4e75c1a3aeb1835cccb36667138b" prot="private" virt="non-virtual"><scope>LED</scope><name>numeroLED</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

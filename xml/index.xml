@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="class_servicio_en_emisora_1_1_caracteristica" kind="class"><name>ServicioEnEmisora::Caracteristica</name>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1ac408acdaae053ae4c005f1f9162d60c7" kind="variable"><name>uuidCaracteristica</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1a385b01fc1535fa1ba0cb62918d70cdcd" kind="variable"><name>laCaracteristica</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1a639f47133a8406e84aa237c123fd2e63" kind="function"><name>Caracteristica</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1a646c15ae6b57fc25d144d2e2ed160c0c" kind="function"><name>Caracteristica</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1a7fe53370615887c50304300457c1114c" kind="function"><name>asignarPropiedadesPermisosYTamanyoDatos</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1ac6642d92b4f2d80ee6c21081972987d7" kind="function"><name>escribirDatos</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1ae3369332d51fb6e70a300b54c3a4f95d" kind="function"><name>notificarDatos</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1ac3355c1918c2eddf58d34df1b30dd60d" kind="function"><name>instalarCallbackCaracteristicaEscrita</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1ad93e0c5998aeb15c920cd5d6db7a0e3b" kind="function"><name>activar</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1a1d99a13ca16b3306b11e6d7ad50d059e" kind="function"><name>asignarPropiedades</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1a0b9429aace3771c7809a9b65ea84482e" kind="function"><name>asignarPermisos</name></member>
+    <member refid="class_servicio_en_emisora_1_1_caracteristica_1a224fe13056debc329ea6e68458821f54" kind="function"><name>asignarTamanyoDatos</name></member>
+  </compound>
+  <compound refid="class_emisora_b_l_e" kind="class"><name>EmisoraBLE</name>
+    <member refid="class_emisora_b_l_e_1a922f7f1ab1063eb40c99e4a3676be258" kind="typedef"><name>CallbackConexionEstablecida</name></member>
+    <member refid="class_emisora_b_l_e_1afd6faaf6a924a50ea027046703300b0b" kind="typedef"><name>CallbackConexionTerminada</name></member>
+    <member refid="class_emisora_b_l_e_1adc123f5bc5a383104ad2f4fd0315b089" kind="variable"><name>nombreEmisora</name></member>
+    <member refid="class_emisora_b_l_e_1a67b97ebd2b35b10066f0857629c6b950" kind="variable"><name>fabricanteID</name></member>
+    <member refid="class_emisora_b_l_e_1aa62d2364ae61d48e27ebe6da63732e0d" kind="variable"><name>txPower</name></member>
+    <member refid="class_emisora_b_l_e_1ae2e94b95bde4cddf0038deb0368cc5bf" kind="function"><name>EmisoraBLE</name></member>
+    <member refid="class_emisora_b_l_e_1a31f9c768b91b9e353f693f509af3ea73" kind="function"><name>encenderEmisora</name></member>
+    <member refid="class_emisora_b_l_e_1ada243f2f1185a7d66ea33de6bdb06590" kind="function"><name>encenderEmisora</name></member>
+    <member refid="class_emisora_b_l_e_1aeede390b7a6502baecb48e9db77120b4" kind="function"><name>detenerAnuncio</name></member>
+    <member refid="class_emisora_b_l_e_1ac32548698cf69ecef9e96941fc2e1b94" kind="function"><name>estaAnunciando</name></member>
+    <member refid="class_emisora_b_l_e_1aff23b85351177e685353b1ee92a1558f" kind="function"><name>emitirAnuncioIBeacon</name></member>
+    <member refid="class_emisora_b_l_e_1a8439d1e85ec8d630fcd33b01d8987d41" kind="function"><name>emitirAnuncioIBeaconLibre</name></member>
+    <member refid="class_emisora_b_l_e_1a0f027a1c447357c5fe79200b36451731" kind="function"><name>anyadirServicio</name></member>
+    <member refid="class_emisora_b_l_e_1a074a16066fc8ae37567a342e3df63bf5" kind="function"><name>anyadirServicioConSusCaracteristicas</name></member>
+    <member refid="class_emisora_b_l_e_1aa589659b63ae877910eab1b39a93a339" kind="function"><name>anyadirServicioConSusCaracteristicas</name></member>
+    <member refid="class_emisora_b_l_e_1a0a0673823174ce9ffb96fb1c0dfb11ab" kind="function"><name>anyadirServicioConSusCaracteristicasYActivar</name></member>
+    <member refid="class_emisora_b_l_e_1ae15e223776af83a8cac07564c168d0b9" kind="function"><name>instalarCallbackConexionEstablecida</name></member>
+    <member refid="class_emisora_b_l_e_1a78c951f0a3a3c25e717a8c544e732e78" kind="function"><name>instalarCallbackConexionTerminada</name></member>
+    <member refid="class_emisora_b_l_e_1aa863c5f29e1f0d4dd1ae023b30350960" kind="function"><name>getConexion</name></member>
+  </compound>
+  <compound refid="class_l_e_d" kind="class"><name>LED</name>
+    <member refid="class_l_e_d_1aa17a4e75c1a3aeb1835cccb36667138b" kind="variable"><name>numeroLED</name></member>
+    <member refid="class_l_e_d_1a24c773334fcf58613f20246a0f22640e" kind="variable"><name>encendido</name></member>
+    <member refid="class_l_e_d_1a027bcd6d546b47fd3ef22685ed1f73e2" kind="function"><name>LED</name></member>
+    <member refid="class_l_e_d_1a58660bafc0f4d6016392feabac555812" kind="function"><name>encender</name></member>
+    <member refid="class_l_e_d_1a7f961959fa7405fec54de6121415db80" kind="function"><name>apagar</name></member>
+    <member refid="class_l_e_d_1a9b1361dbee5de756d142b1a2c3e685da" kind="function"><name>alternar</name></member>
+    <member refid="class_l_e_d_1a7431e9efb39a2890f75b4e235b8f617e" kind="function"><name>brillar</name></member>
+  </compound>
+  <compound refid="class_medidor" kind="class"><name>Medidor</name>
+    <member refid="class_medidor_1af8dd93b883c64f28bd898c4baaa73dc9" kind="function"><name>Medidor</name></member>
+    <member refid="class_medidor_1a1d26e993a9198fac83d6edad4cc30bcf" kind="function"><name>iniciarMedidor</name></member>
+    <member refid="class_medidor_1a203ae9be3a2bf0965bd9316fcd203e19" kind="function"><name>medirCO2</name></member>
+    <member refid="class_medidor_1a742eaebe02e1d1d67df55f7a73878421" kind="function"><name>medirTemperatura</name></member>
+  </compound>
+  <compound refid="class_publicador" kind="class"><name>Publicador</name>
+    <member refid="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38" kind="enum"><name>MedicionesID</name></member>
+    <member refid="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38a32fd7e9cb7b0274a336e9dc35614f638" kind="enumvalue"><name>CO2</name></member>
+    <member refid="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38aba4e4bf52d95cc981259e2a2192e6047" kind="enumvalue"><name>TEMPERATURA</name></member>
+    <member refid="class_publicador_1a0dbad8398e97eaf1d6ecdd854f286d38ad30d25e445bf4115dfd39ddcdb665ca4" kind="enumvalue"><name>RUIDO</name></member>
+    <member refid="class_publicador_1afdd05d23d289af8d520938cbec79b93d" kind="variable"><name>beaconUUID</name></member>
+    <member refid="class_publicador_1a86ef036c1b64668ac54dfe87b595aec5" kind="variable"><name>laEmisora</name></member>
+    <member refid="class_publicador_1a339fb2ba061a53478572ade00866408c" kind="variable"><name>RSSI</name></member>
+    <member refid="class_publicador_1aa6e6635cf76f5be0d84b8e7780156151" kind="function"><name>Publicador</name></member>
+    <member refid="class_publicador_1a10f309e5dfd232d204c5d2952581fe16" kind="function"><name>encenderEmisora</name></member>
+    <member refid="class_publicador_1a2ed2009b9cec631024263659be882985" kind="function"><name>publicarCO2</name></member>
+    <member refid="class_publicador_1a674ec7d8321b9792835cd935c6196dec" kind="function"><name>publicarTemperatura</name></member>
+  </compound>
+  <compound refid="class_puerto_serie" kind="class"><name>PuertoSerie</name>
+    <member refid="class_puerto_serie_1a8f0bfae3f90577642131689eab4489b1" kind="function"><name>PuertoSerie</name></member>
+    <member refid="class_puerto_serie_1acdb696d30440a38dac61f5f73625935a" kind="function"><name>esperarDisponible</name></member>
+    <member refid="class_puerto_serie_1ab1b6cecc098aa30e5704dc294deec1f4" kind="function"><name>escribir</name></member>
+  </compound>
+  <compound refid="class_servicio_en_emisora" kind="class"><name>ServicioEnEmisora</name>
+    <member refid="class_servicio_en_emisora_1afb9fef1029d1afd6368128a400efdc50" kind="typedef"><name>CallbackCaracteristicaEscrita</name></member>
+    <member refid="class_servicio_en_emisora_1a6c8dad351b6453c0a08a1c5e4a78c7dd" kind="variable"><name>uuidServicio</name></member>
+    <member refid="class_servicio_en_emisora_1a98d4770be02c0fff4cc9c67660fd3a62" kind="variable"><name>elServicio</name></member>
+    <member refid="class_servicio_en_emisora_1ab4d755931fcd34d29ead49663cf523f4" kind="variable"><name>lasCaracteristicas</name></member>
+    <member refid="class_servicio_en_emisora_1a17d9dcafb552b3e76bc7ff2e6fb238f2" kind="function"><name>ServicioEnEmisora</name></member>
+    <member refid="class_servicio_en_emisora_1a59267e82dca13b83913e578efacce794" kind="function"><name>escribeUUID</name></member>
+    <member refid="class_servicio_en_emisora_1af25a77d5c2b3edfe5c99fc9fa00729bf" kind="function"><name>anyadirCaracteristica</name></member>
+    <member refid="class_servicio_en_emisora_1a387f170420610e1ba1fe71b471c1ca23" kind="function"><name>activarServicio</name></member>
+    <member refid="class_servicio_en_emisora_1a0d04b53b2379140293924ef1ecbfeebe" kind="function"><name>operator BLEService &amp;</name></member>
+  </compound>
+  <compound refid="_emisora_b_l_e_8h" kind="file"><name>EmisoraBLE.h</name>
+  </compound>
+  <compound refid="_l_e_d_8h" kind="file"><name>LED.h</name>
+    <member refid="_l_e_d_8h_1a2fb17dd710d89b92e59a349551733fa0" kind="function"><name>esperar</name></member>
+  </compound>
+  <compound refid="_medidor_8h" kind="file"><name>Medidor.h</name>
+    <member refid="_medidor_8h_1acb678553adcad3860f88139596e85da7" kind="define"><name>PinTemperatura</name></member>
+    <member refid="_medidor_8h_1a1c9ab0e55522b46fb4f2ddc53536a743" kind="define"><name>PinCO2</name></member>
+  </compound>
+  <compound refid="_publicador_8h" kind="file"><name>Publicador.h</name>
+  </compound>
+  <compound refid="_puerto_serie_8h" kind="file"><name>PuertoSerie.h</name>
+  </compound>
+  <compound refid="_servicio_en_emisora_8h" kind="file"><name>ServicioEnEmisora.h</name>
+    <member refid="_servicio_en_emisora_8h_1aada7529d57b6678988eaa3e0acf84aff" kind="function"><name>alReves</name></member>
+    <member refid="_servicio_en_emisora_8h_1a4493ee26019e14ff5945192a58d5da3a" kind="function"><name>stringAUint8AlReves</name></member>
+  </compound>
+</doxygenindex>
